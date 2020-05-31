@@ -1,3 +1,7 @@
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+
 class RNN_model(nn.Module):
     def __init__(self):
         super(RNN_model, self).__init__()
