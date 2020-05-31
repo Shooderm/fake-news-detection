@@ -11,7 +11,7 @@ class BiLSTM_model(nn.Module):
         self.relu = nn.LeakyReLU(negative_slope=0.01,inplace=True)
         self.hidden = nn.Linear(d2v_size, 64)
         if emb_type==4 or emb_type==5 or emb_type==6:
-            self.out  = nn.Linear(hidden*2, d2v_size, num_classes)
+            self.out  = nn.Linear(hidden*2++d2v_size, num_classes)
         elif emb_type==2:
             self.out = nn.Linear(64, num_classes)
         else:
