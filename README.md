@@ -8,7 +8,7 @@ Kaggle: https://www.kaggle.com/mdepak/fakenewsnet#BuzzFeed_fake_news_content.csv
 ## How to use
 
 ## Software and Library Requirements
-pytorch == 1.5.0+cu101
+pytorch == 1.5.0+cu101 <br>
 Keras == 2.3.1 <br>
 matplotlib == 3.2.1 <br>
 numpy == 1.18.4 <br>
