@@ -19,10 +19,10 @@ class RNN_model(nn.Module):
 
     def forward(self, input,d2v):
         if emb_type!=2:    
-            rnn_out, h_n=self.rnn(input)
-            x =torch.cat((h_n[0,:,:], h_n[1,:,:]), 1)
+            rnn_out, h_n = self.rnn(input)
+            x = torch.cat((h_n[0,:,:], h_n[1,:,:]), 1)
         else:
-            x=d2v
+            x = d2v
             x = self.hidden(x)
         if emb_type==4 or emb_type==5 or emb_type==6:
             x = torch.cat((x,d2v), 1)
