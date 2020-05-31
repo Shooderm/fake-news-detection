@@ -20,7 +20,7 @@ class BiLSTM_model(nn.Module):
     def forward(self, input, d2v):
         if emb_type!=2:      
             lstm_out,(h_n,c_n) = self.bilstm(input)
-            x = torch.cat((h_n[0,:,:],h_n[1,:,:]),1)
+            x = torch.cat((h_n[0,:,:], h_n[1,:,:]), 1)
         else:
             x = d2v
             x = self.hidden(x)
