@@ -3,7 +3,7 @@
 ## Data used: BuzzFeed and PolitiFact
 
 Kaggle: https://www.kaggle.com/mdepak/fakenewsnet#BuzzFeed_fake_news_content.csv <br>
-(kaggle上PolitiFact_fake_news_content.csv(825.42 KB)是错的。。是吧) <br>
+
 
 ## How to use
 Run `Final Model`, which is our final model <br>
