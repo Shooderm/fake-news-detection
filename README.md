@@ -9,6 +9,8 @@ Kaggle: https://www.kaggle.com/mdepak/fakenewsnet#BuzzFeed_fake_news_content.csv
 Run `Final Model`, which is our final model <br>
 File `Visualization` has images about results of *4.1 Attention Visualization* and *4.2 Bi-GRU Visualization*
 
+Colab link: https://colab.research.google.com/drive/1a9mGYFzxblMm-qzjsWQSkxg2ZCDx_I5e?usp=sharing
+
 ## Implementation details
 
 For text preprocessing:
