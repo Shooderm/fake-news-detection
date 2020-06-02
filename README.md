@@ -6,7 +6,6 @@ Kaggle: https://www.kaggle.com/mdepak/fakenewsnet#BuzzFeed_fake_news_content.csv
 (kaggle上PolitiFact_fake_news_content.csv(825.42 KB)是错的。。是吧) <br>
 
 ## How to use
-Go to `RNN-models` <br>
 Run `Final Model`, which is our final model <br>
 File `Visualization` has images about results of *4.1 Attention Visualization* and *4.2 Bi-GRU Visualization*
 
