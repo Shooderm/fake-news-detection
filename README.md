@@ -7,8 +7,8 @@ Kaggle: https://www.kaggle.com/mdepak/fakenewsnet#BuzzFeed_fake_news_content.csv
 
 ## How to use
 Go to `RNN-models` <br>
-Run `...`, which is our final model <br>
-(这个`...` 是文件名啊 等吴老师上传了再改)
+Run `Final Model`, which is our final model <br>
+File `Visualization` has images about results of 4.1 Attention Visualization and 4.2 Bi-GRU Visualization
 
 ## Implementation details
 
