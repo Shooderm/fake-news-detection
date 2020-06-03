@@ -7,6 +7,11 @@ Kaggle: https://www.kaggle.com/mdepak/fakenewsnet#BuzzFeed_fake_news_content.csv
 
 ## How to use
 Run `Final Model`, which is our final model <br>
+You can choose datasets with different embedding types in *1.2. Dataset and Parameters Setting*  <br>
+For `dataset`: 0 = BuzzFeed, 1 = PolitiFact, 2 = Both <br>
+For `lda_topic`: it is number of LDA topics <br>
+For `emb_type`: 0 = text+title, 1 = lda2vec, 3 = all <br>
+
 File `Visualization` has images about results of *4.1 Attention Visualization* and *4.2 Bi-GRU Visualization*
 
 Colab link: https://colab.research.google.com/drive/1a9mGYFzxblMm-qzjsWQSkxg2ZCDx_I5e?usp=sharing
